@@ -113,6 +113,19 @@ forest-cover-classification/
 │── requirements.txt
 ```
 
+## ▶️ How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/x3loox/Elevvo-Machine-Learning-Intern/tree/main/Task-3-Forest-Cover-Type-Classification.git
+   cd Task-3-Forest-Cover-Type-Classification
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Jupyter Notebook:
+   ```bash
+   jupyter notebook customer_segmentation.ipynb
 ---
 
 ## 🚀 Next Steps

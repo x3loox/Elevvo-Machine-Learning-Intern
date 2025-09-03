@@ -78,7 +78,7 @@ We also experiment with alternative clustering algorithms like **DBSCAN**.
    ```
 3. Run the Jupyter Notebook:
    ```bash
-   jupyter notebook customer_segmentation.ipynb
+   jupyter notebook notebooks/customer_segmentation.ipynb
    ```
 
 ---

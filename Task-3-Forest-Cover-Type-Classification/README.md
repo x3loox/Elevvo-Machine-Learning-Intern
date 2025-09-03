@@ -125,7 +125,7 @@ forest-cover-classification/
    ```
 3. Run the Jupyter Notebook:
    ```bash
-   jupyter notebook customer_segmentation.ipynb
+   jupyter notebook forest_cover_classification.ipynb
 ---
 
 ## 🚀 Next Steps

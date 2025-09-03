@@ -91,5 +91,14 @@ We also experiment with alternative clustering algorithms like **DBSCAN**.
 
 ---
 
+## 👤 Author
+**AlaEldin Ali**  
+
+_Data Science Enthusiast | ML Intern @ Elevvo_  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/x3loox) | [GitHub](https://github.com/x3loox)
+
+---
+
 ## 📜 License
 This project is for **educational purposes** as part of the Elevvo Pathways internship.

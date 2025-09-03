@@ -69,7 +69,7 @@ We also experiment with alternative clustering algorithms like **DBSCAN**.
 ## ▶️ How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/x3loox/Elevvo-Machine-Learning-Intern/Task-2-Customer-Segmentation.git
+   git clone https://github.com/x3loox/Elevvo-Machine-Learning-Intern/edit/main/Task-2-Customer-Segmentation.git
    cd Task-2-Customer-Segmentation
    ```
 2. Install dependencies:

@@ -97,7 +97,7 @@ This project uses the Forest CoverType dataset from the UCI ML Repository.
 
 ## 📂 Project Structure
 ```
-forest-cover-classification/
+Task-3-Forest-Cover-Type-Classification/
 │── data/
 │   └── sample_covtype.csv
 │── visuals/
@@ -125,7 +125,7 @@ forest-cover-classification/
    ```
 3. Run the Jupyter Notebook:
    ```bash
-   jupyter notebook forest_cover_classification.ipynb
+   jupyter notebook notebooks/forest_cover_classification.ipynb
 ---
 
 ## 🚀 Next Steps

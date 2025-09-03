@@ -10,7 +10,7 @@ The project compares **Logistic Regression** and **Decision Tree Classifier**, w
 
 ## 📂 Repository Structure
 ```
-loan-approval-prediction/
+Task-4-Loan-Approval-Prediction/
 │── data/
 │   └── loan_data.csv
 │── notebooks/
@@ -109,7 +109,7 @@ loan-approval-prediction/
 
 3. Open the notebook:
    ```bash
-   jupyter notebook notebooks/Task-4-Loan-Approval-Prediction.ipynb
+   jupyter notebook notebooks/loan_approval_prediction.ipynb
    ```
 
 ---

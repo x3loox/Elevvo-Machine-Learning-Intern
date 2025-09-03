@@ -64,12 +64,20 @@ The goal is to **predict students' exam scores** based on factors like study hou
 
 ---
 
-## 📌 How to Run
-
-```bash
-pip install -r requirements.txt
-jupyter notebook Student_Score_Prediction.ipynb
-```
+## ▶️ How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/x3loox/Elevvo-Machine-Learning-Intern/blob/main/Task-1-Student_Score_Prediction.git
+   cd Task-2-Customer-Segmentation
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the Jupyter Notebook:
+   ```bash
+   jupyter notebook Student_Score_Prediction.ipynb
+   ```
 
 ---
 

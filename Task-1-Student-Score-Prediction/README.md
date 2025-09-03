@@ -67,8 +67,8 @@ The goal is to **predict students' exam scores** based on factors like study hou
 ## ▶️ How to Run
 1. Clone this repository:
    ```bash
-   git clone https://github.com/x3loox/Elevvo-Machine-Learning-Intern/blob/main/Task-1-Student_Score_Prediction.git
-   cd Task-2-Customer-Segmentation
+   git clone https://github.com/x3loox/Elevvo-Machine-Learning-Intern/blob/main/Task-1-Student-Score-Prediction.git
+   cd Task-1-Student-Score-Prediction
    ```
 2. Install dependencies:
    ```bash

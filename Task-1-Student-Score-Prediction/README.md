@@ -87,3 +87,17 @@ jupyter notebook Student_Score_Prediction.ipynb
 - **Internship**: Elevvo – Machine Learning Track
 - **Task Level**: Level 1 – Task 1
 - **Duration**: 1 Month (Minimum 4 tasks required)
+
+---
+
+## 👤 Author
+**AlaEldin Ali**  
+
+_Data Science Enthusiast | ML Intern @ Elevvo_  
+
+🔗 [LinkedIn](https://www.linkedin.com/in/x3loox) | [GitHub](https://github.com/x3loox)
+
+---
+
+## 📜 License
+This project is for **educational purposes** as part of the Elevvo Pathways internship.

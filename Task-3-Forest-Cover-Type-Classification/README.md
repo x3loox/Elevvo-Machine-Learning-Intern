@@ -100,6 +100,8 @@ This project uses the Forest CoverType dataset from the UCI ML Repository.
 Task-3-Forest-Cover-Type-Classification/
 │── data/
 │   └── sample_covtype.csv
+│── notebooks/
+│   └── forest_cover_classification.ipynb
 │── visuals/
 │   ├── confusion_matrix_rf.png
 │   ├── confusion_matrix_xgb.png
@@ -108,7 +110,6 @@ Task-3-Forest-Cover-Type-Classification/
 │   ├── feature_importance_rf.png
 │   ├── feature_importance_xgb.png
 │   ├── model_comparison.png
-│── forest_cover_classification.ipynb
 │── README.md
 │── requirements.txt
 ```

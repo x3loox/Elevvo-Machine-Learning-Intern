@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Loan Approval Prediction - Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Roboto', sans-serif; line-height: 1.6; margin: 0; padding: 0; background: #f7f7f7; color: #333; }
+  header { background: #2c3e50; color: #fff; padding: 20px 0; text-align: center; }
+  header h1 { margin: 0; font-size: 2em; }
+  .container { width: 90%; max-width: 1000px; margin: 30px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+  h2 { color: #2c3e50; border-bottom: 2px solid #2c3e50; padding-bottom: 5px; }
+  img { max-width: 100%; margin: 15px 0; border-radius: 5px; }
+  ul { padding-left: 20px; }
+  a { color: #2980b9; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  footer { text-align: center; padding: 20px 0; background: #2c3e50; color: #fff; margin-top: 30px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Loan Approval Prediction</h1>
+  <p>Machine Learning Internship | Elevvo Pathways</p>
+</header>
+
+<div class="container">
+
+  <h2>Problem Statement</h2>
+  <p>The goal of this project is to predict loan approval status using machine learning techniques while handling imbalanced data. This helps banks make faster and more accurate lending decisions.</p>
+
+  <h2>Dataset</h2>
+  <p>The dataset contains information about applicants, including their income, credit history, and loan status.</p>
+  <ul>
+    <li>File: <code>loan_data.csv</code></li>
+    <li>Features: Applicant details, Loan Status</li>
+  </ul>
+
+  <h2>Methodology</h2>
+  <ol>
+    <li>Data Preprocessing: Handle missing values, encode categorical variables, scale numerical features.</li>
+    <li>Exploratory Data Analysis: Visualize loan status distribution and categorical features.</li>
+    <li>Model Training: Logistic Regression and Decision Tree Classifier, with and without SMOTE oversampling.</li>
+    <li>Evaluation: Accuracy, Precision, Recall, F1 Score, and Confusion Matrices.</li>
+  </ol>
+
+  <h2>Results</h2>
+  <ul>
+    <li><strong>Logistic Regression (No SMOTE):</strong> Accuracy: 86.18%, Precision: 0.84, Recall: 0.988, F1: 0.908</li>
+    <li><strong>Decision Tree (No SMOTE):</strong> Accuracy: 74.79%, Precision: 0.821, Recall: 0.812, F1: 0.817</li>
+    <li><strong>Logistic Regression (With SMOTE):</strong> Accuracy: 83.74%, Precision: 0.835, Recall: 0.953, F1: 0.890</li>
+    <li><strong>Decision Tree (With SMOTE):</strong> Accuracy: 73.98%, Precision: 0.844, Recall: 0.765, F1: 0.803</li>
+  </ul>
+
+  <h2>Visualizations</h2>
+  <img src="visuals/loan_status_distribution.png" alt="Loan Status Distribution">
+  <img src="visuals/confusion_matrix_logreg_no_smote.png" alt="Confusion Matrix Logistic Regression No SMOTE">
+  <img src="visuals/confusion_matrix_logreg_with_smote.png" alt="Confusion Matrix Logistic Regression With SMOTE">
+  <img src="visuals/confusion_matrix_dcitree_no_smote.png" alt="Confusion Matrix Decision Tree No SMOTE">
+  <img src="visuals/confusion_matrix_dcitree_with_smote.png" alt="Confusion Matrix Decision Tree With SMOTE">
+  <img src="visuals/modeles_comparison.png" alt="Model Comparison">
+
+  <h2>Key Insights</h2>
+  <ul>
+    <li>Logistic Regression consistently outperformed Decision Tree.</li>
+    <li>SMOTE improved recall for both models but slightly reduced overall accuracy.</li>
+    <li>Logistic Regression + SMOTE achieved the best balance between precision and recall.</li>
+  </ul>
+
+  <h2>Tools & Libraries</h2>
+  <ul>
+    <li>Python</li>
+    <li>Pandas, NumPy</li>
+    <li>Matplotlib, Seaborn</li>
+    <li>Scikit-learn</li>
+    <li>imbalanced-learn (SMOTE)</li>
+  </ul>
+
+  <h2>How to Run</h2>
+  <ol>
+    <li>Clone the repository: <code>git clone https://github.com/x3loox/Elevvo-Machine-Learning-Intern.git</code></li>
+    <li>Install dependencies: <code>pip install -r requirements.txt</code></li>
+    <li>Open the notebook: <code>jupyter notebook notebooks/loan_approval_prediction.ipynb</code></li>
+  </ol>
+
+</div>
+
+<footer>
+  <p>Author: AlaEldin Ali | Data Science Enthusiast | ML Intern @ Elevvo</p>
+</footer>
+
+</body>
+</html>
